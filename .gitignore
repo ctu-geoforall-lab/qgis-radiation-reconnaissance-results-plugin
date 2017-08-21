@@ -1,0 +1,14 @@
+*.pyc
+.idea/
+*.aux
+*.gz
+*.loa
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.bbl
+*.blg
+*~
+docs/build
