@@ -14,7 +14,7 @@ version=1.0.0
 author=Tereza Kulovana (CTU GeoForAll Lab)
 email=teri.kulovana@gmail.com
 
-about=This plugin generates predefined isolines from interpolated grid and it converts them to simplified polygons. Output is a text report with coordinates in a MGRS system. Primary user is Armáda ČR.
+about=This plugin generates predefined isolines from interpolated grid and it converts them to simplified polygons. Output is a text report with coordinates in a MGRS system. Primary user is Armed Forces of the Czech Republic.
 
 tracker=https://github.com/ctu-geoforall-lab/qgis-radiation-reconnaissance-results-plugin/issues
 repository=https://github.com/ctu-geoforall-lab/qgis-radiation-reconnaissance-results-plugin
