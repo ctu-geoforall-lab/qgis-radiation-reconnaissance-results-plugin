@@ -10,7 +10,7 @@
 name=Radiation reconnaissance results
 qgisMinimumVersion=2.14
 description=This plugin generates polygons from grid.
-version=1.0
+version=1.1BETA
 author=Tereza Kulovana (CTU GeoForAll Lab)
 email=teri.kulovana@gmail.com
 
