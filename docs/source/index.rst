@@ -9,6 +9,8 @@ APP-11 NATO Message Catalogue.
 This plugin was created for Army of the Czech Republic (`ACR 
 <http://www.army.cz/en/>`__).
 
+.. warning:: This plugin is currently available only for **QGIS 2.x**!
+
 .. toctree::
    :maxdepth: 2
 
