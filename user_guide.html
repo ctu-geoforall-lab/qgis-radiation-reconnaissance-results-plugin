@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>User Guide &mdash; Radiation Reconnaissance Results QGIS Plugin 0.1 documentation</title>
+  <title>User Guide &mdash; Radiation Reconnaissance Results QGIS Plugin 1.0 documentation</title>
   
 
   
@@ -24,27 +24,19 @@
 
   
 
-  
-  
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="genindex.html"/>
-        <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="Radiation Reconnaissance Results QGIS Plugin 0.1 documentation" href="index.html"/>
-        <link rel="next" title="Acknowledgement" href="acknowledgement.html"/>
-        <link rel="prev" title="Installation" href="installation.html"/> 
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Acknowledgement" href="acknowledgement.html" />
+    <link rel="prev" title="Installation" href="installation.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
@@ -61,7 +53,7 @@
 
           
             
-            <img src="_static/icon.png" class="logo" />
+            <img src="_static/icon.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -69,7 +61,7 @@
             
             
               <div class="version">
-                0.1
+                1.0
               </div>
             
           
@@ -114,7 +106,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="index.html">Radiation Reconnaissance Results QGIS Plugin</a>
@@ -122,9 +114,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -187,7 +180,7 @@ National Radiation Protection Institute (<a class="reference external" href="htt
 </div>
 <div class="section" id="gui">
 <h2>GUI<a class="headerlink" href="#gui" title="Permalink to this headline">¶</a></h2>
-<p>The plugin is divided into two tabs. The first of them is <code class="docutils literal"><span class="pre">Main</span></code> tab:</p>
+<p>The plugin is divided into two tabs. The first of them is <code class="docutils literal notranslate"><span class="pre">Main</span></code> tab:</p>
 <div class="figure align-center" id="id2">
 <img alt="_images/main_tab.jpg" src="_images/main_tab.jpg" />
 <p class="caption"><span class="caption-text">Figure 2: The main tab of plugin.</span></p>
@@ -195,18 +188,18 @@ National Radiation Protection Institute (<a class="reference external" href="htt
 <ul class="simple">
 <li>User selects the raster input and chooses appropriate input type (dose rate
 or surface activity). The raster combo box includes available layers from the
-Layer panel or it is possible to upload a raster file via button <code class="docutils literal"><span class="pre">Load</span>
+Layer panel or it is possible to upload a raster file via button <code class="docutils literal notranslate"><span class="pre">Load</span>
 <span class="pre">raster</span></code>. By hitting this button, a file dialog opens and user can choose
-desired file (only GDAL supported files are shown). Pressing <code class="docutils literal"><span class="pre">OK</span></code> will
-insert this path to the raster selection. Click on <code class="docutils literal"><span class="pre">Cancel</span></code> will interrupt
+desired file (only GDAL supported files are shown). Pressing <code class="docutils literal notranslate"><span class="pre">OK</span></code> will
+insert this path to the raster selection. Click on <code class="docutils literal notranslate"><span class="pre">Cancel</span></code> will interrupt
 the choosing dialog and the raster selection will not be changed.</li>
-<li>Click on a tool button <code class="docutils literal"><span class="pre">...</span></code> opens a file dialog where user defines the
-path where the report file will be saved. This file is mandatory so <code class="docutils literal"><span class="pre">Solve</span></code>
+<li>Click on a tool button <code class="docutils literal notranslate"><span class="pre">...</span></code> opens a file dialog where user defines the
+path where the report file will be saved. This file is mandatory so <code class="docutils literal notranslate"><span class="pre">Solve</span></code>
 button is disabled until path is defined.</li>
-<li>After pressing <code class="docutils literal"><span class="pre">Solve</span></code> button, plugin generates simplified polygons and
+<li>After pressing <code class="docutils literal notranslate"><span class="pre">Solve</span></code> button, plugin generates simplified polygons and
 saves output file(s) to selected destination(s).</li>
 </ul>
-<p>The second tab of the plugin is <code class="docutils literal"><span class="pre">Settings</span></code> tab:</p>
+<p>The second tab of the plugin is <code class="docutils literal notranslate"><span class="pre">Settings</span></code> tab:</p>
 <div class="figure align-center" id="id3">
 <img alt="_images/settings_tab.jpg" src="_images/settings_tab.jpg" />
 <p class="caption"><span class="caption-text">Figure 3: The settings tab.</span></p>
@@ -255,7 +248,7 @@ accuracy in meters). The last coordinate ends with a double slash (indicates
 the end of a line). Everything between the first slash and the double slash is
 called a line. Individual lines must be separated by line break. There must be
 no space before or behind the slash. There is no space between VALUE and UNIT.
-There is no space between &#8220;MGRS:&#8221; and the coordinate, the colon must be
+There is no space between “MGRS:” and the coordinate, the colon must be
 retained.</p>
 <p>The output may contain multiple rows, each being related to another level of
 the measured variable (eg, 3 rows sequentially for 1CGH, 10CGH and 50CGH).</p>
@@ -282,9 +275,7 @@ checked. It is saved in the same directory as input raster file.</p>
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -302,11 +293,11 @@ checked. It is saved in the same directory as input raster file.</p>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2016-2017, Tereza Kulovana (CTU GeoForAll Lab).
+        &copy; Copyright 2016-2018, Tereza Kulovana (CTU GeoForAll Lab).
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -324,7 +315,8 @@ checked. It is saved in the same directory as input raster file.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'0.1',
+            VERSION:'1.0',
+            LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,
@@ -337,19 +329,13 @@ checked. It is saved in the same directory as input raster file.</p>
 
   
 
-  
-  
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>
